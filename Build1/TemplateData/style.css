@@ -98,3 +98,40 @@ body {
     padding: 10px;
     display: none
 }
+
+.fade {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.1s;
+    font-family: impact;
+    line-height: 4rem;
+    font-size: 120px;
+    position: absolute;
+    width: 20%; 
+    height: 9%; 
+    font-family: 'Inter', sans-serif; 
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.fade:hover {
+    background-color: #6c6c6c;
+}
+  
+.fade:focus,
+.fade:active {
+    background-color: black;
+    transition: none;
+    color: #fff;
+}
+
+.fade:disabled {
+    background-color: rgba(105, 105, 105, 0.303);
+    color: rgba(255, 255, 255, 0.329);
+    opacity: 1;
+}
+
+#maintenance_button_container {
+    padding: 0.5vw 1vw;
+  }
